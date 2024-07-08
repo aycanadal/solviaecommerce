@@ -45,11 +45,11 @@ Qodana finds no problems.
 
 Project is restful architecture, uses Spring Data Rest (SDR) for standard operations, makes use of custom controllers, custom repository interface methods or repository event handlers where there needs to run custom logic.
 
-Spring Data Rest allows to generate endpoints directly from entities. Once served by these endpoints, entities automatically become rest resources, with url links (not just ids!) to each other where there is a relationship.
+Spring Data Rest allows to generate endpoints directly from entities. Once served by these endpoints, entities automatically become rest resources, with url links (not just ids!) to each other where there is a relationship. It is also possible to denormalize fields from a child entity and copy them to the parent entity directly. Writing big `Projection`s is also possible but often not needed. 
 
 ![img_5.png](img_5.png)
 
-And check out this standard localized multi-language validation error message.
+Check out this standard localized multi-language validation error message.
 
 ![img_4.png](img_4.png)
 
